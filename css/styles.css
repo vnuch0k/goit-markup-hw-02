@@ -1,0 +1,119 @@
+/*цвет основного текста #212121 */
+/* вторичный цвет  #757575*/
+/* белый цвет #FFFFFF */
+/* акцент color #2196F3 */
+/* вторичный цвет фона #F5F4FA */
+
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --white-color: #ffffff;
+  --accent-color: #2196f3;
+  --secondary-background-color: #f5f4fa;
+}
+
+body {
+  background-color: var(--white-color);
+  color: #212121;
+  font-family: roboto, sans-serif;
+}
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* logo */
+
+.logo {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-family: raleway, sans-serif;
+}
+.logo-color {
+  color: var(--primary-text-color);
+}
+
+/* site-nav */
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* auth nav */
+
+.auth-nav .contacts {
+  color: var(--secondary-text-color);
+}
+
+.auth-nav .contacts:hover,
+.auth-nav .contacts:focus {
+  color: var(--accent-color);
+}
+
+/* hero */
+.hero-title {
+  color: #ffffff;
+}
+
+.button-hero {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+/* section */
+.section-title {
+  color: var(--primary-text-color);
+}
+
+/* features */
+.features .title {
+  color: var(--primary-text-color);
+}
+/* оформление <p> */
+.description-text {
+  color: var(--secondary-text-color);
+}
+
+/* directions list */
+.directions-list {
+  color: var(--primary-text-color);
+}
+
+/* button */
+.button {
+  color: var(--primary-text-color);
+  background-color: var(--secondary-background-color);
+}
+
+.button:hover,
+.button:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+/* logo bottom */
+.logo-bottom {
+  color: var(--primary-text-color);
+}
+/* contacts bottom */
+.contacts-bottom {
+  color: var(--secondary-text-color);
+}
+
+.contacts-bottom:hover {
+  color: var(--accent-color);
+}
+
+/* projects 2nd page */
+.project-name {
+  color: var(--primary-text-color);
+}
