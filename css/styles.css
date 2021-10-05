@@ -31,7 +31,11 @@ body {
   color: var(--accent-color);
   text-decoration: none;
   font-family: raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
+
 .logo-color {
   color: var(--primary-text-color);
 }
@@ -39,7 +43,11 @@ body {
 /* site-nav */
 .site-nav .link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
@@ -52,6 +60,9 @@ body {
 
 .auth-nav .contacts {
   color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .auth-nav .contacts:hover,
@@ -62,25 +73,41 @@ body {
 /* hero */
 .hero-title {
   color: #ffffff;
+  background-color: #2f303a;
+  font-size: 44px;
+  line-height: 1.36;
 }
 
 .button-hero {
   color: var(--white-color);
   background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  cursor: pointer;
 }
 
 /* section */
 .section-title {
   color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
 }
 
 /* features */
 .features .title {
   color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
 }
-/* оформление <p> */
-.description-text {
+
+/* абзацы преимуществ */
+.features-description {
   color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 /* directions list */
@@ -92,6 +119,10 @@ body {
 .button {
   color: var(--primary-text-color);
   background-color: var(--secondary-background-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  cursor: pointer;
 }
 
 .button:hover,
@@ -100,13 +131,39 @@ body {
   background-color: var(--accent-color);
 }
 
+/* member name */
+.member-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+/* должности */
+.work-position {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.18;
+}
+
 /* logo bottom */
 .logo-bottom {
   color: var(--primary-text-color);
 }
+
+/* street adress */
+.street {
+  color: var(--white-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
 /* contacts bottom */
 .contacts-bottom {
   color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .contacts-bottom:hover {
@@ -116,4 +173,15 @@ body {
 /* projects 2nd page */
 .project-name {
   color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+/* product type */
+
+.product-type {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.87;
 }
