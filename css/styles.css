@@ -97,6 +97,11 @@ body {
   font-family: inherit;
 }
 
+.button-hero:hover,
+.button-hero:focus {
+  background-color: #188ce8;
+}
+
 /* section */
 .section-title {
   color: var(--primary-text-color);
@@ -182,6 +187,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   background-color: #2f303a;
+  font-style: normal;
 }
 
 /* contacts bottom */
