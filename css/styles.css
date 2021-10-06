@@ -73,13 +73,18 @@ body {
 }
 
 /* hero */
+
+.hero {
+  background-color: #2f303a;
+}
+
 .hero-title {
   color: #ffffff;
-  background-color: #2f303a;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .button-hero {
@@ -107,6 +112,7 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 
 /* абзацы преимуществ */
@@ -138,6 +144,12 @@ body {
   background-color: var(--accent-color);
 }
 
+/* section team */
+
+.section.team {
+  background-color: #f5f4fa;
+}
+
 /* member name */
 .member-name {
   font-weight: 500;
@@ -152,9 +164,15 @@ body {
   line-height: 1.18;
 }
 
+/* footer */
+
+.footer {
+  background-color: #2f303a;
+}
+
 /* logo bottom */
 .logo-bottom {
-  color: var(--primary-text-color);
+  color: var(--white-color);
 }
 
 /* street adress */
@@ -168,10 +186,11 @@ body {
 
 /* contacts bottom */
 .contacts-bottom {
-  color: var(--secondary-text-color);
+  color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  font-style: normal;
 }
 
 .contacts-bottom:hover {
